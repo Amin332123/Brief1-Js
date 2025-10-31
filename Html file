@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amine Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+    <h1 id="Qh1"> Quiz Game </h1>
+   
+
+    <div class="container">
+        <div class="con">
+        <div class="Question" id="Question">
+           
+        </div>
+        <div class="choices" id="btns">
+            <button claas="choix" id="c1"></button>
+            <button claas="choix" id="c2"></button>
+            <button claas="choix" id="c3"></button>
+            <button claas="choix" id="c4"></button>
+
+        </div>
+        <div class="btns">
+            <input type="button" id="Back" value="back">
+            
+
+            <input type="button" id="Next" value="Next" style="display: block;">
+            <input type="button" id="finish" value="Finish" style="display: none;">
+
+        </div>
+        </div>
+        <input type="button" id="Start" value="Start the Quiz">
+    </div>
+
+
+     <script src="Scpirt.js"></script>
+</body>
+</html>
